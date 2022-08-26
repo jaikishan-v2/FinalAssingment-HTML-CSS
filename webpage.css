@@ -36,28 +36,25 @@ header a {
     border-bottom: .3rem solid orangered;
 }
 
-h3 {
-    font-size: 2.5rem;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-.left {
+.company {
+    position: relative;
+    bottom: 1.1rem;
+    color: orangered;
+    display: inline;
     min-height: fit-content;
     padding-left: 30rem;
-    border-width: 1rem;
+    font-size: 2.5rem;
 }
 
-.navigation{
+.navigation {
+    display: inline;
     height: 8rem;
     width: 100%;
-}
-.right {
-    display: inline;
-    right: 10rem;
-    position: relative;
-    border: 0.2rem solid orangered;
-    color: orangered;
-    font-size: 2.5rem;
-    height: fit-content;
 }
 
 .nav1 {
@@ -66,52 +63,29 @@ h3 {
     width: 100%;
     height: 7rem;
     font-size: 2rem;
-    word-spacing: 3rem;
+    word-spacing: 5rem;
     padding: 0 10rem 0 8rem;
+    text-align: center;
+}
+
+.navele {
+    display: inline-block
+}
+
+.right {
+    display: inline;
+    right: 10rem;
+    position: relative;
+    bottom: 1.1rem;
+    border: 0.2rem solid orangered;
+    color: orangered;
+    font-size: 2.5rem;
+    height: fit-content;
 }
 
 .slider {
     filter: contrast(30%);
     filter: brightness(30%);
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-fieldset {
-    max-width: 40%;
-    min-width: 20%;
-    z-index: 1;
-}
-
-h3 {
-    display: inline;
-    margin-bottom: 20px;
-}
-
-button{
-    color: orangered;
-    border: 0.2rem solid orangered;
-    background-color: transparent;
-}
-
-card {
-    margin: 1.5%;
-    border-style: solid;
-    border-width: 1px;
-    box-sizing: content-box;
-    max-width: 15%;
-    max-height: 15%;
-    display: inline-block;
-}
-
-card h2 {
-    display: inline;
-}
-
-.slider{
     position: relative;
     text-align: center;
     color: white;
@@ -127,28 +101,177 @@ card h2 {
     font-size: 2rem;
     text-align: center;
 }
-.save{
-    padding: 0rem 3rem 0rem 3rem;
+
+.save {
+    padding: 0rem 3rem 0.5rem 3rem;
     font-size: 5rem;
-    text-decoration:0.4rem underline orangered;
+    border-bottom: 0.4rem solid orangered;
     font-weight: lighter;
-}
-.company{
-    padding-top: 00.4rem;
-    color: orangered;
+    margin: 0;
 }
 
-.readbutton{
-    border: 0.2rem solid transparent;
-}
-.read{
-    z-index: 2;
-    box-sizing: border-box;
-    background-color: transparent;
-    box-shadow: inset 0 0 1rem gray;
-    border: 0.2px solid gray;
+.read {
     padding: 0.5rem;
     position: relative;
     top: 2.9rem;
     font-size: 1.6rem;
+}
+
+.readbutton {
+    border: 0.2rem solid transparent;
+}
+
+.infoform{
+    position: relative;
+    bottom: 15rem;
+    left: 20rem;
+    width: 15%;
+    background-color: white;
+    box-shadow: 1rem 2rem 0.9rem 0.5rem grey;
+    border: 4rem solid white;
+}
+.infoform input[type=text], .infoform input[type=submit]{
+    width: 80%;
+    padding: 1.5rem;
+    margin: 0.5rem 0 2.2rem 0;
+    border: none;
+    background: #f1f1f1;
+  }
+label{
+    width: 100%;
+    margin: 0.5rem 0 2.2rem 0;
+    border: none;
+    background: #fff;
+    font-size: 1.4rem;
+}
+
+.message{
+    width: 50%;
+    position: relative;
+    left: 60rem;
+    bottom: 35rem;
+    font-size: 2rem;
+}
+
+.leave{
+    border-bottom: 0.4rem solid orangered;
+    padding-bottom: 0.5rem;
+}
+card {
+    margin: 1.5%;
+    border-style: solid;
+    border-width: 0.1rem;
+    box-sizing: content-box;
+    max-width: 20%;
+    max-height: 15%;
+    display: inline-block;
+}
+
+card h2 {
+    display: inline;
+}
+
+.bottomlink{
+    width: 100%;
+    background-color:#333333;
+}
+
+ul{
+    list-style: none outside;
+}
+
+.bottomelement{
+    width: 80%;
+    padding: 4rem 0 0 20rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.aboutus{
+    display: inline-block;
+    width: 20%;
+}
+
+.about{
+    border-bottom: 0.1rem solid orangered;
+    padding-bottom: 0.2rem;
+}
+
+.discover{
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    bottom: 2.4rem;
+}
+
+.dis{
+    border-bottom: 0.1rem solid orangered;
+    padding-bottom: 0.2rem;
+}
+
+.quicklink{
+    display: inline-block;
+    width:20%;
+    position: relative;
+    bottom: 2.4rem;
+}
+
+.quick{
+    border-bottom: 0.1rem solid orangered;
+    padding-bottom: 0.2rem;
+}
+
+.tags{
+    display: inline-block;
+    width:20%;
+    position: relative;
+    bottom: 4.5rem;
+}
+
+.tag{
+    border-bottom: 0.1rem solid orangered;
+    padding: 0 0.2rem 0.2rem 0.2rem;
+}
+
+.newsletter{
+    background-color: orangered;
+    height: 5.5rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.signup{
+    display:inline;
+    color: white;
+    font-size: 2.4rem;
+}
+
+.subscribe{
+    position: relative;
+    left: 2rem;
+    background: transparent;
+    color: white;
+    border: 0.11rem solid white;
+    padding: 1rem 1.5rem 1rem 1.4rem;
+}
+
+.fornews{
+    display: inline;
+    padding: 0.5rem;
+    margin: 0.5rem 0 2.2rem 0;
+    border: none;
+}
+
+.fornews input[type=text]{
+    width: 15%;
+    padding: 0.5rem;
+    border: none;
+}
+
+.copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1.5rem 0 1.5rem 0;
 }
