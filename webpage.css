@@ -83,14 +83,6 @@ a {
     height: fit-content;
 }
 
-.slider {
-    filter: contrast(30%);
-    filter: brightness(30%);
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
 .textcenter {
     position: absolute;
     top: 50%;
@@ -111,17 +103,12 @@ a {
 }
 
 .read {
-    padding: 0.5rem;
     position: relative;
-    top: 2.9rem;
-    font-size: 1.6rem;
+    top : 3rem;
+    font-size: 2.5rem;
 }
 
-.readbutton {
-    border: 0.2rem solid transparent;
-}
-
-.infoform{
+.infoform {
     position: relative;
     bottom: 15rem;
     left: 20rem;
@@ -130,14 +117,16 @@ a {
     box-shadow: 1rem 2rem 0.9rem 0.5rem grey;
     border: 4rem solid white;
 }
-.infoform input[type=text], .infoform input[type=submit]{
+
+.infoform input[type=text], .infoform input[type=submit] {
     width: 80%;
     padding: 1.5rem;
     margin: 0.5rem 0 2.2rem 0;
     border: none;
     background: #f1f1f1;
-  }
-label{
+}
+
+label {
     width: 100%;
     margin: 0.5rem 0 2.2rem 0;
     border: none;
@@ -145,7 +134,12 @@ label{
     font-size: 1.4rem;
 }
 
-.message{
+.underline{
+    border-bottom: 0.1rem solid orangered;
+    padding-bottom: 0.2rem;
+}
+
+.message {
     width: 50%;
     position: relative;
     left: 60rem;
@@ -153,100 +147,593 @@ label{
     font-size: 2rem;
 }
 
-.leave{
-    border-bottom: 0.4rem solid orangered;
-    padding-bottom: 0.5rem;
+.iconborder{
+    border: 0.2rem solid #f4f4f4;
+    width: 45px;
+    height: 30px;
+    padding-top: 14px;
+    text-align: center;
+    color: #fe1800;
+    position: relative;
+    left: 2rem;
+    top: 2rem;
 }
-card {
-    margin: 1.5%;
-    border-style: solid;
-    border-width: 0.1rem;
-    box-sizing: content-box;
-    max-width: 20%;
-    max-height: 15%;
+
+.underlinecard{
+    border-bottom: 0.1rem solid orangered;
+    padding-bottom: 0 0.5rem 0.3rem 0;
+    position: relative;
+    left: 9.5rem;
+    bottom: 1.5rem;
+}
+
+.para{
+    margin-left: 9rem;
+    line-height: 2.8rem;
+    color: grey;
+    font-size: 1.4rem;
+}
+
+.card1 {
+    border: 0.2rem solid #f4f4f4;
+    position: relative;
+    left: 30rem;
+    bottom: 30rem;
+    width: 33rem;
+    height: 15.5rem;
+    font-size: 1rem;
+}
+
+.card2 {
+    border: 0.2rem solid #f4f4f4;
+    position: relative;
+    left: 70rem;
+    bottom: 46rem;
+    width: 33rem;
+    height: 15.5rem;
+}
+
+.card3 {
+    border: 0.2rem solid #f4f4f4;
+    position: relative;
+    left: 110rem;
+    bottom: 62rem;
+    width: 33rem;
+    height: 15.5rem;
+}
+
+.card4 {
+    border: 0.2rem solid #f4f4f4;
+    position: relative;
+    left: 30rem;
+    bottom: 58rem;
+    width: 33rem;
+    height: 15.5rem;
+}
+
+.card5 {
+    border: 0.2rem solid #f4f4f4;
+    position: relative;
+    left: 70rem;
+    bottom: 74rem;
+    width: 33rem;
+    height: 15.5rem;
+}
+
+.card6 {
+    border: 0.2rem solid #f4f4f4;
+    position: relative;
+    left: 110rem;
+    bottom: 90rem;
+    width: 33rem;
+    height: 15.5rem;
+}
+
+.about {
+    background-color: #f4f4f4;
+    padding: 10rem 0 10rem 0;
+    margin-top: -80rem;
+}
+
+.aboutus {
+    text-align: center;
+    position: relative;
+    bottom: 5rem;
+    line-height: 3.2rem;
+    font-size: 1.5rem;
+}
+
+.heading{
+    border-bottom: 0.2rem solid orangered;
+    font-size: 2.5rem;
+    padding:0 0 2.5rem 0.5rem;
+}
+
+.aboutus .fa.fa-tint {
+    padding: 1rem 2rem 1rem 2rem;
+    border-top: 0.11rem solid orangered;
+    border-bottom: 0.11rem solid orangered;
+    color: orangered;
+    background-color: #f4f4f4;
+    font-size: 22px;
+    position: relative;
+    top: 4.2rem;
+    right: 9.5rem;
+}
+
+.donation {
+    width: 33.5rem;
+    line-height: 3.1rem;
+    font-size: 1.5rem;
+    position: relative;
+    left: 40rem;
+    bottom: 27rem;
+}
+
+.fundrise {
+    width: 33.5rem;
+    line-height: 3.1rem;
+    font-size: 1.5rem;
+    position: relative;
+    left: 40rem;
+    bottom: 27rem;
+}
+
+.scholarship{
+    width: 33.5rem;
+    line-height: 3.1rem;
+    font-size: 1.5rem;
+    position: relative;
+    left: 114rem;
+    bottom: 54rem;
+}
+
+.volunter{
+    width: 33.5rem;
+    line-height: 3.1rem;
+    font-size: 1.5rem;
+    position: relative;
+    left: 114rem;
+    bottom: 54rem;
+}
+
+.ourcauses{
+    margin-top: -50rem;
+    background-color: white;
+    padding-top: 2rem;
+    margin-bottom: -110rem;
+}
+
+.ourcause {
+    text-align: center;
+    position: relative;
+    top: 5rem;
+    line-height: 3.2rem;
+    font-size: 1.5rem;
+}
+
+.ourcause .fa.fa-tint {
+    padding: 1rem 2rem 1rem 2rem;
+    border-top: 0.11rem solid orangered;
+    border-bottom: 0.11rem solid orangered;
+    color: orangered;
+    background-color: white;
+    font-size: 22px;
+    position: relative;
+    top: 4.2rem;
+    right: 11rem;
+}
+
+.causeimg{
+    width: 332px;
+    margin-bottom: 10px;
+}
+
+.donated{
+    word-spacing: 18rem;
+    position: relative;
+    top: 9rem;
+    left: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.amount{
+    word-spacing: 18rem;
+    position: relative;
+    top: 8rem;
+    left: 2.5rem;
+    font-size: 1.3rem;
+    color: #fe1800;
+}
+
+.feed1{
+    border: 0.2rem solid #f4f4f4;
+    position: relative;
+    left: 34rem;
+    top: 10rem;
+    width: 33.2rem;
+    height: 60rem;
+}
+
+.feed2{
+    border: 0.2rem solid #f4f4f4;
+    position: relative;
+    left: 76rem;
+    bottom: 50rem;
+    width: 33.2rem;
+    height: 60rem;
+}
+
+.feed3{
+    border: 0.2rem solid #f4f4f4;
+    position: relative;
+    left: 117rem;
+    bottom: 110.5rem;
+    width: 33.2rem;
+    height: 60rem;
+}
+
+.progressbar{
+    accent-color: #fe3b00;
+    position: relative;
+    top: 5.4rem;
+    left: 2.3rem;
+    width: 27.5rem;
+    height: 1.2rem;
+  }
+
+.triangle1{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    margin-left: 125px;
+    margin-top: 32px;
+    border-bottom: 20px solid #fe3b00;
+    rotate: 180deg;
+}
+
+.prog1{
+    color: white;
+    position: absolute;
+    border: solid;
+    background-color: #fe3b00;
+    border-width: 0px;
+    width: 27px;
+    height: 21px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50%;
+    font-size: 11px;
+    margin-left: 120px;
+    margin-top: 16px;
+}
+
+.triangle2{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    margin-left: 179px;
+    margin-top: 32px;
+    border-bottom: 20px solid #fe3b00;
+    rotate: 180deg;
+}
+
+.prog2{
+    color: white;
+    position: absolute;
+    border: solid;
+    background-color: #fe3b00;
+    border-width: 0px;
+    width: 27px;
+    height: 21px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50%;
+    font-size: 11px;
+    margin-left: 174px;
+    margin-top: 16px;
+}
+
+.triangle3{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    margin-left: 234px;
+    margin-top: 35px;
+    border-bottom: 20px solid #fe3b00;
+    rotate: 180deg;
+}
+
+.prog3{
+    color: white;
+    position: absolute;
+    border: solid;
+    background-color: #fe3b00;
+    border-width: 0px;
+    width: 27px;
+    height: 21px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50%;
+    font-size: 11px;
+    margin-left: 229px;
+    margin-top: 18px;
+}
+
+.heart {
+    background-color: black;
+    margin-top: 6.5rem;
+    padding-top: 8.5rem;
+}
+
+.video {
+    position: relative;
+    left: 39rem;
+    bottom: 33rem;
+    filter: brightness(0.5);
+}
+
+.play {
+    position: relative;
+    left: 5rem;
+    bottom: 45rem;
+}
+
+.heartheading {
+    color: white;
+    position: relative;
+    margin-left: 98.1rem;
+    font-size: 1.8rem;
+}
+
+.heart .para1{
+    color: white;
+    position: relative;
+    width: 48rem;
+    left: 98rem;
+    top: 1rem;
+    line-height: 3rem;
+    font-size: 1.4rem;
+}
+
+.heart .para2{
+    color: white;
+    position: relative;
+    width: 48rem;
+    left: 98rem;
+    top: 1rem;
+    line-height: 3rem;
+    font-size: 1.4rem;
+}
+
+.ourgallery {
+    text-align: center;
+    position: relative;
+    bottom: 00rem;
+    line-height: 3.2rem;
+    font-size: 1.5rem;
+    padding-top: 4rem;
+}
+
+.ourgallery .fa.fa-tint{
+    padding: 1rem 2rem 1rem 2rem;
+    border-top: 0.11rem solid orangered;
+    border-bottom: 0.11rem solid orangered;
+    color: orangered;
+    background-color: white;
+    font-size: 2.2rem;
+    position: relative;
+    top: 4.2rem;
+    right: 12rem;
+}
+
+.gallery .fa.fa-picture-o{
+    position: absolute;
+    color: white;
+    margin-left: -77rem;
+    margin-top: 230px;
+    font-size: 30px;
+}
+
+.gallery1 {
+    width: 58rem;
+    height: 49rem;
+    margin-right: -0.4rem;
+}
+
+.gallery2 {
+    width: 33rem;
+    height: 25.9rem;
+    margin-bottom: 23.1rem;
+}
+
+.gallery3 {
+    width: 33rem;
+    height: 23.1rem;
+    margin-left: -33.4rem;
+    margin-right: -0.4rem;
+}
+
+.gallery4 {
+    width: 32rem;
+    height: 49rem;
+    margin-right: -0.4rem;
+    filter: brightness(0.5);
+}
+
+.gallery5 {
+    margin-bottom: 24rem;
+    width: 60rem;
+    margin-left: 0rem;
+    height: 25rem;
+}
+
+.gallery6 {
+    margin-left: -60rem;
+    position: absolute;
+    margin-top: 25rem;
+    width: 60rem;
+    height: 24rem;
+}
+
+.volunteer {
+    padding-top: 4rem;
+    text-align: center;
+    background-color: #f4f4f4
+}
+
+.volunteer .fa.fa-tint{
+    padding: 1rem 2rem 1rem 2rem;
+    border-top: 0.11rem solid orangered;
+    border-bottom: 0.11rem solid orangered;
+    color: orangered;
+    background-color: #f4f4f4;
+    font-size: 2.2rem;
+    position: relative;
+    top: -1.8rem;
+    right: 1rem;
+}
+
+.cards{
+    display: flex;
+    margin-top: 13rem;
+    margin-left: 45.1rem;
+    gap: 30px;
+}
+
+.cardimage{
+    width:224px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.cardimage1{
+    width: 224px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0.1px 0.1px 5px 0.5px silver;
+}
+
+.profileimage{
+    width: 175px;
+    height: 170px;
+    margin-top: -80px;
+}
+
+.cards h1{
+    font-size: 20px;
+    color: #333;
+    margin: 24px;
+    margin-top: 40px;
+    margin-bottom: 6.4px;
+}
+
+.cards p{
+    margin-bottom: 32px;
+    margin-top: 5px;
+    color: grey;
+}
+
+.social-media{
+    width: 165px;
+    margin-top: 25px;
+    border-top: 1px solid #f1f1f1;
+    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-right: 5px;
+    text-align: center;
+    word-spacing: 20px;
+}
+
+.dot1{
+    position: relative;
+    left: 2rem;
+    bottom: 8rem;
+    height: 8px;
+    width: 8px;
+    border-radius: 85%;
     display: inline-block;
+    border: 1px solid red;
+    background-color: orangered;
+    margin-top: 10rem;
 }
 
-card h2 {
-    display: inline;
+.dot2{
+    position: relative;
+    left: 2rem;
+    bottom: 8rem;
+    height: 8px;
+    width: 8px;
+    border-radius: 85%;
+    display: inline-block;
+    border: 1px solid red;
 }
 
-.bottomlink{
+.bottomlink {
     width: 100%;
-    background-color:#333333;
+    background-color: #333333;
 }
 
-ul{
+ul {
     list-style: none outside;
 }
 
-.bottomelement{
+.bottomelement {
     width: 80%;
     padding: 4rem 0 0 20rem;
     color: white;
     font-size: 2rem;
 }
 
-.aboutus{
+.aboutusb {
     display: inline-block;
     width: 20%;
 }
 
-.about{
-    border-bottom: 0.1rem solid orangered;
-    padding-bottom: 0.2rem;
-}
-
-.discover{
+.discover {
     display: inline-block;
     width: 20%;
     position: relative;
-    bottom: 2.4rem;
+    bottom: 4.4rem;
 }
 
-.dis{
-    border-bottom: 0.1rem solid orangered;
-    padding-bottom: 0.2rem;
-}
-
-.quicklink{
+.quicklink {
     display: inline-block;
-    width:20%;
+    width: 20%;
     position: relative;
-    bottom: 2.4rem;
+    bottom: 4.4rem;
 }
 
-.quick{
-    border-bottom: 0.1rem solid orangered;
-    padding-bottom: 0.2rem;
-}
-
-.tags{
+.tags {
     display: inline-block;
-    width:20%;
+    width: 20%;
     position: relative;
-    bottom: 4.5rem;
+    bottom: 9.5rem;
 }
 
-.tag{
-    border-bottom: 0.1rem solid orangered;
-    padding: 0 0.2rem 0.2rem 0.2rem;
-}
-
-.newsletter{
+.newsletter {
     background-color: orangered;
     height: 5.5rem;
     text-align: center;
     padding-top: 2rem;
 }
 
-.signup{
-    display:inline;
+.signup {
+    display: inline;
     color: white;
     font-size: 2.4rem;
 }
 
-.subscribe{
+.subscribe {
     position: relative;
     left: 2rem;
     background: transparent;
@@ -255,23 +742,24 @@ ul{
     padding: 1rem 1.5rem 1rem 1.4rem;
 }
 
-.fornews{
+.fornews {
     display: inline;
     padding: 0.5rem;
     margin: 0.5rem 0 2.2rem 0;
     border: none;
 }
 
-.fornews input[type=text]{
+.fornews input[type=text] {
     width: 15%;
     padding: 0.5rem;
     border: none;
 }
 
-.copyright{
+.copyright {
     background-color: black;
     color: white;
     text-align: center;
     font-size: 2rem;
     padding: 1.5rem 0 1.5rem 0;
 }
+
