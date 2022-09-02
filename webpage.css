@@ -1,16 +1,20 @@
 html {
     font-size: 10px;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: "lato";
 }
 
 body {
     margin: 0;
 }
 
-header {
-    background-color: #333333;
+.topnav{
     width: 100%;
-    height: 4rem;
+    background-color: #333333;
+}
+
+header {
+    width: 110rem;
+    height: 5rem;
     font-size: 2rem;
 }
 
@@ -18,22 +22,24 @@ header a {
     color: white;
 }
 
+.lessspace{
+    word-spacing: 1rem;
+}
+
 .box {
-    margin: 0.7rem 0.5rem 0 29rem;
-    padding: 0rem 0rem 0.6rem 0.7rem;
-    display: inline;
+    float: left;
+    font-size: 1.7rem;
     word-spacing: 2.5rem;
-    border-bottom: 0.2rem solid orangered;
+    padding: 0 1.2rem 0 0.6rem;
+    border-bottom: 0.3rem solid #f44121;
 }
 
 .boxright {
-    height: 3.2rem;
-    padding-right: 1rem;
-    margin: 0.5rem 30rem 0 0;
+    font-size: 1.7rem;
     word-spacing: 3rem;
-    display: inline;
     float: right;
-    border-bottom: .3rem solid orangered;
+    padding: 0 1.2rem 0 0.6rem;
+    border-bottom: 0.3rem solid #f44121;
 }
 
 a {
@@ -41,30 +47,25 @@ a {
     color: black;
 }
 
+.navigation {
+    width: 110rem;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
 .company {
     position: relative;
     bottom: 1.1rem;
-    color: orangered;
+    color: #f44121;
     display: inline;
-    min-height: fit-content;
-    padding-left: 30rem;
-    font-size: 2.5rem;
-}
-
-.navigation {
-    display: inline;
-    height: 8rem;
-    width: 100%;
+    font-size: 2rem;
 }
 
 .nav1 {
     display: inline;
     background-color: white;
-    width: 100%;
-    height: 7rem;
-    font-size: 2rem;
-    word-spacing: 5rem;
-    padding: 0 10rem 0 8rem;
+    font-size: 1.5rem;
+    word-spacing: 4rem;
+    padding: 0 5rem 0 14rem;
     text-align: center;
 }
 
@@ -74,56 +75,89 @@ a {
 
 .right {
     display: inline;
-    right: 10rem;
     position: relative;
     bottom: 1.1rem;
-    border: 0.2rem solid orangered;
-    color: orangered;
-    font-size: 2.5rem;
-    height: fit-content;
+    border: 0.1rem solid #f44121;
+    color: #f44121;
+    font-size: 1.5rem;
+    padding: 1.4rem;
 }
 
 .textcenter {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    bottom: 55rem;
     color: white;
     width: 70rem;
     font-size: 2rem;
     text-align: center;
+    border: 0.1rem white solid;
+    border-bottom: none;
+}
+
+.readmore {
+    position: relative;
+    bottom: 57.6rem;
+    color: white;
+    width: 70rem;
+    font-size: 2rem;
+    text-align: center;
+    border: none;
+    border-top: 0.1rem white solid;
 }
 
 .save {
     padding: 0rem 3rem 0.5rem 3rem;
     font-size: 5rem;
-    border-bottom: 0.4rem solid orangered;
+    border-bottom: 0.4rem solid #f44121;
     font-weight: lighter;
     margin: 0;
 }
 
+.outer{
+    border: 2.1rem solid transparent;
+    background-color: transparent;
+}
+
 .read {
-    position: relative;
-    top : 3rem;
-    font-size: 2.5rem;
+    border: 0.15rem white solid;
+    color: white;
+    font-size: 1.5rem;
+    background-color: transparent;
+    padding: 1.5rem 2rem 1.2rem 2rem ;
 }
 
 .infoform {
-    position: relative;
-    bottom: 15rem;
-    left: 20rem;
-    width: 15%;
+    position: absolute;
+    width: 28rem;
+    padding: 4rem;
     background-color: white;
-    box-shadow: 1rem 2rem 0.9rem 0.5rem grey;
-    border: 4rem solid white;
+    box-shadow: 0.1rem 1rem 1.9rem -0.2rem #282828;
 }
 
-.infoform input[type=text], .infoform input[type=submit] {
-    width: 80%;
+.formnmessage{
+    width: 110rem;
+    height: 40rem;
+    position: relative;
+    left: 35.52rem;
+    bottom: 42rem;
+}
+
+.infoform input[type=text]{
+    width: 23rem;
     padding: 1.5rem;
     margin: 0.5rem 0 2.2rem 0;
     border: none;
     background: #f1f1f1;
+}
+
+.infoform input[type=submit]{
+    color: white;
+    font-weight: bold;
+    width: 26rem;
+    padding: 1.5rem;
+    margin: 0.5rem 0 2.2rem 0;
+    border: none;
+    background: #f44121;
 }
 
 label {
@@ -135,32 +169,39 @@ label {
 }
 
 .underline{
-    border-bottom: 0.1rem solid orangered;
+    border-bottom: 0.1rem solid #f44121;
     padding-bottom: 0.2rem;
 }
 
 .message {
-    width: 50%;
-    position: relative;
-    left: 60rem;
-    bottom: 35rem;
+    width: 75rem;
+    position: absolute;
+    top: 15rem;
+    left: 40rem;
     font-size: 2rem;
+}
+
+.sixcards{
+    width: 110rem;
+    position: relative;
+    bottom: 10rem;
+    left: 7rem;
 }
 
 .iconborder{
     border: 0.2rem solid #f4f4f4;
-    width: 45px;
-    height: 30px;
-    padding-top: 14px;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem;
     text-align: center;
-    color: #fe1800;
+    color: #f44121;
     position: relative;
     left: 2rem;
     top: 2rem;
 }
 
 .underlinecard{
-    border-bottom: 0.1rem solid orangered;
+    border-bottom: 0.1rem solid #f44121;
     padding-bottom: 0 0.5rem 0.3rem 0;
     position: relative;
     left: 9.5rem;
@@ -168,10 +209,11 @@ label {
 }
 
 .para{
+    margin-top: 0;
     margin-left: 9rem;
     line-height: 2.8rem;
     color: grey;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .card1 {
@@ -181,25 +223,27 @@ label {
     bottom: 30rem;
     width: 33rem;
     height: 15.5rem;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .card2 {
     border: 0.2rem solid #f4f4f4;
     position: relative;
-    left: 70rem;
+    left: 67rem;
     bottom: 46rem;
     width: 33rem;
     height: 15.5rem;
+    font-size: 2rem;
 }
 
 .card3 {
     border: 0.2rem solid #f4f4f4;
     position: relative;
-    left: 110rem;
+    left: 104rem;
     bottom: 62rem;
     width: 33rem;
     height: 15.5rem;
+    font-size: 2rem;
 }
 
 .card4 {
@@ -209,24 +253,31 @@ label {
     bottom: 58rem;
     width: 33rem;
     height: 15.5rem;
+    font-size: 2rem;
 }
 
 .card5 {
-    border: 0.2rem solid #f4f4f4;
+    border: 0.1rem solid #f44121;
     position: relative;
-    left: 70rem;
+    left: 67rem;
     bottom: 74rem;
     width: 33rem;
     height: 15.5rem;
+    font-size: 2rem;
+}
+
+.card5 .iconborder{
+    background-color: #f44121;
 }
 
 .card6 {
     border: 0.2rem solid #f4f4f4;
     position: relative;
-    left: 110rem;
+    left: 104rem;
     bottom: 90rem;
     width: 33rem;
     height: 15.5rem;
+    font-size: 2rem;
 }
 
 .about {
@@ -244,18 +295,18 @@ label {
 }
 
 .heading{
-    border-bottom: 0.2rem solid orangered;
+    border-bottom: 0.2rem solid #f44121;
     font-size: 2.5rem;
     padding:0 0 2.5rem 0.5rem;
 }
 
 .aboutus .fa.fa-tint {
     padding: 1rem 2rem 1rem 2rem;
-    border-top: 0.11rem solid orangered;
-    border-bottom: 0.11rem solid orangered;
-    color: orangered;
+    border-top: 0.11rem solid #f44121;
+    border-bottom: 0.11rem solid #f44121;
+    color: #f44121;
     background-color: #f4f4f4;
-    font-size: 22px;
+    font-size: 2.2rem;
     position: relative;
     top: 4.2rem;
     right: 9.5rem;
@@ -314,19 +365,19 @@ label {
 
 .ourcause .fa.fa-tint {
     padding: 1rem 2rem 1rem 2rem;
-    border-top: 0.11rem solid orangered;
-    border-bottom: 0.11rem solid orangered;
-    color: orangered;
+    border-top: 0.11rem solid #f44121;
+    border-bottom: 0.11rem solid #f44121;
+    color: #f44121;
     background-color: white;
-    font-size: 22px;
+    font-size: 2.2rem;
     position: relative;
     top: 4.2rem;
     right: 11rem;
 }
 
 .causeimg{
-    width: 332px;
-    margin-bottom: 10px;
+    width: 33.2rem;
+    margin-bottom: 1rem;
 }
 
 .donated{
@@ -349,7 +400,7 @@ label {
 .feed1{
     border: 0.2rem solid #f4f4f4;
     position: relative;
-    left: 34rem;
+    left: 40rem;
     top: 10rem;
     width: 33.2rem;
     height: 60rem;
@@ -367,14 +418,14 @@ label {
 .feed3{
     border: 0.2rem solid #f4f4f4;
     position: relative;
-    left: 117rem;
+    left: 113rem;
     bottom: 110.5rem;
     width: 33.2rem;
     height: 60rem;
 }
 
 .progressbar{
-    accent-color: #fe3b00;
+    accent-color: #f44121;
     position: relative;
     top: 5.4rem;
     left: 2.3rem;
@@ -386,37 +437,36 @@ label {
     position: absolute;
     width: 0;
     height: 0;
-    border: 8px solid transparent;
-    margin-left: 125px;
-    margin-top: 32px;
-    border-bottom: 20px solid #fe3b00;
+    border: 0.8rem solid transparent;
+    margin-left: 12.5rem;
+    margin-top: 3.2rem;
+    border-bottom: 2rem solid #f44121;
     rotate: 180deg;
 }
 
 .prog1{
     color: white;
     position: absolute;
-    border: solid;
-    background-color: #fe3b00;
-    border-width: 0px;
-    width: 27px;
-    height: 21px;
+    border: 0rem solid;
+    background-color: #f44121;
+    width: 2.7rem;
+    height: 2.1rem;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 0.5rem;
     border-radius: 50%;
-    font-size: 11px;
-    margin-left: 120px;
-    margin-top: 16px;
+    font-size: 1.1rem;
+    margin-left: 12rem;
+    margin-top: 1.6rem;
 }
 
 .triangle2{
     position: absolute;
     width: 0;
     height: 0;
-    border: 8px solid transparent;
-    margin-left: 179px;
-    margin-top: 32px;
-    border-bottom: 20px solid #fe3b00;
+    border: 0.8rem solid transparent;
+    margin-left: 17.9rem;
+    margin-top: 3.2rem;
+    border-bottom: 2rem solid #f44121;
     rotate: 180deg;
 }
 
@@ -424,26 +474,26 @@ label {
     color: white;
     position: absolute;
     border: solid;
-    background-color: #fe3b00;
-    border-width: 0px;
-    width: 27px;
-    height: 21px;
+    background-color: #f44121;
+    border-width: 0;
+    width: 2.7rem;
+    height: 2.1rem;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 0.5rem;
     border-radius: 50%;
-    font-size: 11px;
-    margin-left: 174px;
-    margin-top: 16px;
+    font-size: 1.1rem;
+    margin-left: 17.4rem;
+    margin-top: 1.6rem;
 }
 
 .triangle3{
     position: absolute;
     width: 0;
     height: 0;
-    border: 8px solid transparent;
-    margin-left: 234px;
-    margin-top: 35px;
-    border-bottom: 20px solid #fe3b00;
+    border: 0.8rem solid transparent;
+    margin-left: 23.4rem;
+    margin-top: 3.2rem;
+    border-bottom: 2rem solid #f44121;
     rotate: 180deg;
 }
 
@@ -451,16 +501,23 @@ label {
     color: white;
     position: absolute;
     border: solid;
-    background-color: #fe3b00;
-    border-width: 0px;
-    width: 27px;
-    height: 21px;
+    background-color: #f44121;
+    border-width: 0;
+    width: 2.7rem;
+    height: 2.1rem;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 0.5rem;
     border-radius: 50%;
-    font-size: 11px;
-    margin-left: 229px;
-    margin-top: 18px;
+    font-size: 1.1rem;
+    margin-left: 22.9rem;
+    margin-top: 1.8rem;
+}
+
+.insideheart{
+    width: 110rem;
+    height: 40rem;
+    position: relative;
+    left: 40.5rem;
 }
 
 .heart {
@@ -471,21 +528,20 @@ label {
 
 .video {
     position: relative;
-    left: 39rem;
     bottom: 33rem;
     filter: brightness(0.5);
 }
 
 .play {
     position: relative;
-    left: 5rem;
+    left: -35rem;
     bottom: 45rem;
 }
 
 .heartheading {
     color: white;
     position: relative;
-    margin-left: 98.1rem;
+    left: 59rem;
     font-size: 1.8rem;
 }
 
@@ -493,7 +549,7 @@ label {
     color: white;
     position: relative;
     width: 48rem;
-    left: 98rem;
+    left: 59rem;
     top: 1rem;
     line-height: 3rem;
     font-size: 1.4rem;
@@ -503,7 +559,7 @@ label {
     color: white;
     position: relative;
     width: 48rem;
-    left: 98rem;
+    left: 59rem;
     top: 1rem;
     line-height: 3rem;
     font-size: 1.4rem;
@@ -520,22 +576,22 @@ label {
 
 .ourgallery .fa.fa-tint{
     padding: 1rem 2rem 1rem 2rem;
-    border-top: 0.11rem solid orangered;
-    border-bottom: 0.11rem solid orangered;
-    color: orangered;
+    border-top: 0.11rem solid #f44121;
+    border-bottom: 0.11rem solid #f44121;
+    color: #f44121;
     background-color: white;
     font-size: 2.2rem;
     position: relative;
     top: 4.2rem;
-    right: 12rem;
+    right: 11rem;
 }
 
 .gallery .fa.fa-picture-o{
     position: absolute;
     color: white;
     margin-left: -77rem;
-    margin-top: 230px;
-    font-size: 30px;
+    margin-top: 23rem;
+    font-size: 3rem;
 }
 
 .gallery1 {
@@ -580,6 +636,7 @@ label {
 }
 
 .volunteer {
+    margin-bottom: -1rem;
     padding-top: 4rem;
     text-align: center;
     background-color: #f4f4f4
@@ -587,25 +644,24 @@ label {
 
 .volunteer .fa.fa-tint{
     padding: 1rem 2rem 1rem 2rem;
-    border-top: 0.11rem solid orangered;
-    border-bottom: 0.11rem solid orangered;
-    color: orangered;
+    border-top: 0.11rem solid #f44121;
+    border-bottom: 0.11rem solid #f44121;
+    color: #f44121;
     background-color: #f4f4f4;
     font-size: 2.2rem;
     position: relative;
     top: -1.8rem;
-    right: 1rem;
 }
 
 .cards{
     display: flex;
     margin-top: 13rem;
-    margin-left: 45.1rem;
-    gap: 30px;
+    margin-left: 37rem;
+    gap: 3.5rem;
 }
 
 .cardimage{
-    width:224px;
+    width:24.4rem;
     background-color:white;
     display: flex;
     flex-direction: column;
@@ -614,114 +670,137 @@ label {
 }
 
 .cardimage1{
-    width: 224px;
+    width: 22.4rem;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
-    box-shadow: 0.1px 0.1px 5px 0.5px silver;
+    box-shadow: 0.01rem 0.01rem 0.5rem 0.05rem silver;
 }
 
 .profileimage{
-    width: 175px;
-    height: 170px;
-    margin-top: -80px;
+    width: 18.5rem;
+    height: 17rem;
+    margin-top: -8rem;
 }
 
 .cards h1{
-    font-size: 20px;
+    font-size: 2rem;
     color: #333;
-    margin: 24px;
-    margin-top: 40px;
-    margin-bottom: 6.4px;
+    margin: 2.4rem;
+    margin-top: 4rem;
+    margin-bottom: 0.64rem;
 }
 
 .cards p{
-    margin-bottom: 32px;
-    margin-top: 5px;
+    margin-bottom: 3.2rem;
+    margin-top: 0.5rem;
     color: grey;
 }
 
 .social-media{
-    width: 165px;
-    margin-top: 25px;
-    border-top: 1px solid #f1f1f1;
-    padding-bottom: 40px;
-    padding-top: 25px;
-    padding-right: 5px;
+    width: 16.5rem;
+    margin-top: 2.5rem;
+    border-top: 0.1rem solid #f1f1f1;
+    padding-bottom: 4rem;
+    padding-top: 2.5rem;
+    padding-right: 0.5rem;
     text-align: center;
-    word-spacing: 20px;
+    word-spacing: 2rem;
 }
 
 .dot1{
     position: relative;
-    left: 2rem;
+    left: -2rem;
     bottom: 8rem;
-    height: 8px;
-    width: 8px;
+    height: 0.8rem;
+    width: 0.8rem;
     border-radius: 85%;
     display: inline-block;
-    border: 1px solid red;
-    background-color: orangered;
+    border: 0.1rem solid #f44121;
+    background-color: #f44121;
     margin-top: 10rem;
 }
 
 .dot2{
     position: relative;
-    left: 2rem;
+    left: 0rem;
     bottom: 8rem;
-    height: 8px;
-    width: 8px;
+    height: 0.8rem;
+    width: 0.8rem;
     border-radius: 85%;
     display: inline-block;
-    border: 1px solid red;
+    border: 0.1rem solid red;
+}
+
+.fa.fa-chevron-circle-up{
+    color: orangered;
+    font-size: 5rem;
+    position: absolute;
+    margin-left: 148rem;
+    margin-top: -3.2rem;
 }
 
 .bottomlink {
+    margin-bottom: -1rem;
     width: 100%;
     background-color: #333333;
 }
 
 ul {
     list-style: none outside;
+    padding: 3rem 0 0 0;
 }
 
 .bottomelement {
-    width: 80%;
-    padding: 4rem 0 0 20rem;
+    width: 110rem;
+    padding: 6rem 0 5rem 37.5rem;
     color: white;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .aboutusb {
     display: inline-block;
-    width: 20%;
+    width: 21%;
+}
+
+hr{
+   opacity: 0.2; 
 }
 
 .discover {
     display: inline-block;
-    width: 20%;
+    width: 23%;
     position: relative;
-    bottom: 4.4rem;
+    bottom: 3.9rem;
+    padding-left: 4rem;
 }
 
 .quicklink {
     display: inline-block;
     width: 20%;
     position: relative;
-    bottom: 4.4rem;
+    bottom: 3.9rem;
+    padding-left: 4rem;
 }
 
 .tags {
     display: inline-block;
-    width: 20%;
+    width: 23%;
     position: relative;
-    bottom: 9.5rem;
+    bottom: 5.5rem;
+    padding-left: 4rem;
+}
+
+.tags li{
+    border: 0.1rem solid white;
+    display: inline;
+    padding: 0.8rem;
 }
 
 .newsletter {
-    background-color: orangered;
+    background-color: #f44121;
     height: 5.5rem;
     text-align: center;
     padding-top: 2rem;
@@ -763,3 +842,8 @@ ul {
     padding: 1.5rem 0 1.5rem 0;
 }
 
+@media only screen and (max-width: 62rem) {
+    * {
+      width: 100%;
+    }
+  }
