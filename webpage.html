@@ -6,41 +6,41 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="webpage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <center>
-        <div class="topnav">
-            <header>
-                <div class="box">
-                    <a class="lessspace" href="#"><i class="fa fa-phone"
-                            style="color: white; background-color: #f44121; padding: 1.5rem;"></i> +123-456-7890</a>
-                    <a href="#"><i class="fa fa-envelope"></i> info@gmail.com</a>
-                </div>
-                <div class="boxright">
-                    <a href="#"><i class="fa fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-google-plus"
-                            style="background-color: #f44121; padding: 1.5rem;"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                </div>
-            </header>
+    <div class="topnav">
+        <div class="box">
+            <a class="lessspace" href="#"><i class="fa fa-phone"
+                    style="color: white; background-color: #f44121; padding: 1.5rem 1.9rem 1.5rem 1.9rem ;"></i>
+                +123-456-7890</a>
+            <a href="#"><i class="fa fa-envelope"></i> info@gmail.com</a>
         </div>
-        <div class="navigation">
-            <h3 class="company">COMPANY NAME</h3>
-            <nav class="nav1">
-                <div class="navele"><a href="#"><i class="fa fa-home"></i><br>Home</a></div>
-                <div class="navele"><a href="#"><i class="fa fa-file-text"></i><br>Pages</a></div>
-                <div class="navele"><a href="#"><i class="fa fa-cog"></i><br>Services</a></div>
-                <div class="navele"><a href="#"><i class="fa fa-calendar"></i><br>Events</a></div>
-                <div class="navele"><a href="#"><i class="fa fa-newspaper-o"></i><br>Blog</a></div>
-                <div class="navele"><a href="#"><i class="fa fa-support"></i><br>FAQs</a></div>
-                <div class="navele"><a href="#"><i class="fa fa-phone"></i><br>Contact</a></div>
-            </nav>
-            <h3 class="right">DONATE NOW</h3>
+        <div class="boxright">
+            <a href="#"><i class="fa fa-facebook-f"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google-plus"
+                    style="background-color: #f44121; padding: 1.5rem 1.9rem 1.5rem 1.9rem;"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
         </div>
+    </div>
+    <div class="navigation">
+        <div class="company">COMPANY NAME</div>
+        <div class="nav1">
+            <div class="navele"><a href="#"><i class="fa fa-home"></i><br>Home</a></div>
+            <div class="navele"><a href="#"><i class="fa fa-file-text"></i><br>Pages</a></div>
+            <div class="navele"><a href="#"><i class="fa fa-cog"></i><br>Services</a></div>
+            <div class="navele"><a href="#"><i class="fa fa-calendar"></i><br>Events</a></div>
+            <div class="navele"><a href="#"><i class="fa fa-newspaper-o"></i><br>Blog</a></div>
+            <div class="navele"><a href="#"><i class="fa fa-support"></i><br>FAQs</a></div>
+            <div class="navele"><a href="#"><i class="fa fa-phone"></i><br>Contact</a></div>
+        </div>
+        <div class="right">DONATE NOW</div>
+    </div>
 
-        <img class="slider" style="filter: brightness(0.4);" src="images/slider.jpg" width="100%" max-height="100%">
+    <div class="slider">
+        <img src="images/slider.jpg" style="filter: brightness(0.4);" width="100%">
         <fieldset class="textcenter">
             <legend align="center">
                 <h3 class="save">Save The Life</h3>
@@ -54,7 +54,7 @@
                             class="outer"></button>
                     </button></button></legend>
         </fieldset>
-    </center>
+    </div>
     <div class="formnmessage">
         <form class="infoform" action="#">
             <label>Name</label><br>
@@ -66,23 +66,24 @@
             <input type="submit" value="SUBMIT">
         </form>
         <article class="message">
-            <p><strong><strong class="underline">LEAV</strong>E US A MESSAGE</strong></p>
+            <p><strong style="font-weight: 400;"><strong class="underline">LEAV</strong>E US A MESSAGE</strong></p>
             <p class="para" style="margin-left: 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
                 lorem magna. Fusce eu urna a sapien fringilla viverra. Morbi ut est ac diam sagittis auctor. Suspendisse
-                ut eros et est elementum sollicitudin. lacus vel viverra molestie...<br><br>
+                ut eros et est elementum sollicitudin. lacus vel viverra molestie...<br>
                 Read more>></p>
         </article>
     </div>
     <section class="sixcards">
-        <div class="card1">
+        <div class="ftb">
+        <div class="card">
             <div class="iconborder">
                 <i class="fa fa-wrench"></i>
             </div>
-            <strong class="underlinecard"><strong>Lnterac</strong>tive Elements</strong>
+            <strong class="underlinecard">Lnteractive Elements</strong>
             <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusm tempor incididunt.
             </p>
         </div>
-        <div class="card2">
+        <div class="card">
             <div class="iconborder">
                 <i class="fa fa-heartbeat"></i>
             </div>
@@ -90,15 +91,16 @@
             <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusm tempor incididunt.
             </p>
         </div>
-        <div class="card3">
+        <div class="card">
             <div class="iconborder">
                 <i class="fa fa-dollar"></i>
             </div>
             <strong class="underlinecard">Donate </strong>
             <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusm tempor incididunt.
             </p>
-        </div>
-        <div class="card4">
+        </div></div>
+        <div class="ntb">
+        <div class="card">
             <div class="iconborder">
                 <i class="fa fa-credit-card"></i>
             </div>
@@ -114,14 +116,14 @@
             <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusm tempor incididunt.
             </p>
         </div>
-        <div class="card6">
+        <div class="card">
             <div class="iconborder">
                 <i class="fa fa-wrench"></i>
             </div>
-            <strong class="underlinecard"><strong>Lnterac</strong>tive Elements</strong>
+            <strong class="underlinecard">Lnteractive Elements</strong>
             <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusm tempor incididunt.
             </p>
-        </div>
+        </div></div>
     </section>
 
     <section class="about">
@@ -131,35 +133,41 @@
             <p class="para" style="margin-left: 0; margin-top: 1.6rem;">Charixy is the charity,Non-profit government
                 organization,fundraising. Our <br> activities help entrepreneurs get the target.</p>
         </section>
-        <center><img src="images/about.jpg"></center>
-        <section class="donation">
-            <strong class="underline">DONAT</strong><strong>ION</strong>
-            <p class="para" style="margin-left: 0;">Vision is our mission.Restoring vision to people in developing
-                nations is our cause.
-                We are a nonpr local
-                physicians</p>
-        </section>
-        <section class="fundrise">
-            <strong class="underline">FUNDR</strong><strong>ISE</strong>
-            <p class="para" style="margin-left: 0;">Vision is our mission.Restoring vision to people in developing
-                nations is our cause.
-                We are a nonpr local
-                physicians</p>
-        </section>
-        <section class="scholarship">
-            <strong class="underline">SCHOL</strong><strong>ARSHIP</strong>
-            <p class="para" style="margin-left: 0;">Vision is our mission.Restoring vision to people in developing
-                nations is our cause.
-                We are a nonpr local
-                physicians</p>
-        </section>
-        <section class="volunter">
-            <strong class="underline">VOLUN</strong><strong>TEER</strong>
-            <p class="para" style="margin-left: 0;">Vision is our mission.Restoring vision to people in developing
-                nations is our cause.
-                We are a nonpr local
-                physicians</p>
-        </section>
+        <div class="doanteimg" style="order: 2;">
+            <img src="images/about.jpg">
+        </div>
+        <div class="donatefund" style="order: 1;">
+            <section class="donation">
+                <strong class="underline">DONAT</strong><strong>ION</strong>
+                <p class="para" style="margin-left: 0;">Vision is our mission.Restoring vision to people in developing
+                    nations is our cause.
+                    We are a nonpr local
+                    physicians</p>
+            </section>
+            <section class="donation">
+                <strong class="underline">FUNDR</strong><strong>ISE</strong>
+                <p class="para" style="margin-left: 0;">Vision is our mission.Restoring vision to people in developing
+                    nations is our cause.
+                    We are a nonpr local
+                    physicians</p>
+            </section>
+        </div>
+        <div class="scholarvoln" style="order: 3;">
+            <section class="donation">
+                <strong class="underline">SCHOL</strong><strong>ARSHIP</strong>
+                <p class="para" style="margin-left: 0;">Vision is our mission.Restoring vision to people in developing
+                    nations is our cause.
+                    We are a nonpr local
+                    physicians</p>
+            </section>
+            <section class="donation">
+                <strong class="underline">VOLUN</strong><strong>TEER</strong>
+                <p class="para" style="margin-left: 0;">Vision is our mission.Restoring vision to people in developing
+                    nations is our cause.
+                    We are a nonpr local
+                    physicians</p>
+            </section>
+        </div>
     </section>
 
     <section class="ourcauses">
@@ -183,7 +191,7 @@
             <p class="donated">Donated Goal</p>
             <p class="amount">$100.00 $2,500.00</p>
         </article>
-        <article class="feed2">
+        <article class="feed1">
             <img class="causeimg" src="images/causes-2.jpg">
             <h2 style="margin-left: 21px;"><strong class="underline">Feed For</strong> Hungry Child</h2>
             <p class="para" style="margin-left: 2.1rem; font-size: 1.5rem;">Lorem ipsum dolor sit amet,consectetur
@@ -196,7 +204,7 @@
             <p class="donated">Donated Goal</p>
             <p class="amount">$100.00 $2,500.00</p>
         </article>
-        <article class="feed3">
+        <article class="feed1">
             <img class="causeimg" src="images/causes-3.jpg">
             <h2 style="margin-left: 21px;"><strong class="underline">Feed For</strong> Hungry Child</h2>
             <p class="para" style="margin-left: 2.1rem; font-size: 1.5rem;">Lorem ipsum dolor sit amet,consectetur
@@ -212,99 +220,106 @@
     </section>
 
     <section class="heart">
-        <div class="insideheart">
-            <strong class="heartheading"><strong class="underline">HEAR</strong>T BROCKEN STORY</strong>
+        <div style="order: 2;"><strong class="heartheading"><strong class="underline">HEAR</strong>T BROCKEN
+                STORY</strong>
             <p class="para1">Even the all-powerful Pointing has no control about the blind texts it is an
                 almost unorthographic life One day however a small line of blind text by the Nameof Loren
                 Ipsum decided to leave for the far World of Grammar.</p>
-            <p class="para2">Coast of Semantics, large language ocean. A small river named Duden flows by their place
+            <p class="para1">Coast of Semantics, large language ocean. A small river named Duden flows by their place
                 and
                 supplies it with the necessary regelialia. It is a paradisematic country, in which
                 roasted.unorthographic
-                life One day however a small line of blind text by theall-powerful.<br><br>Read more >></p>
-            <img class="video" src="images/video-img.jpg">
-            <img class="play" src="images/play-btn.png">
+                life One day however a small line of blind text by theall-powerful.<br>Read more >></p>
+        </div>
+        <div style="order: 1;">
+            <figure><img class="video" src="images/video-img.jpg">
+                <img class="play" src="images/play-btn.png">
+            </figure>
         </div>
     </section>
 
     <section class="ourgallery">
-        <strong class="heading">OUR GALLERY</strong>
-        <i class="fa fa-tint"></i><br><br>
-        <p class="para" style="margin-left: 0; margin-top: 2rem;">Charixy is the charity,Non-profit government
-            organizatio,
-            fundraising.
-            Our <br>activities help entrepreneurs get the target.</p>
-    </section><br><br>
-    <section class="gallery">
-        <img class="gallery1" src="images/gallery-1.jpg">
-        <img class="gallery2" src="images/gallery-2.jpg">
-        <img class="gallery3" src="images/gallery-3.jpg">
-        <img class="gallery4" src="images/gallery-4.jpg">
-        <img class="gallery5" src="images/gallery-5.jpg">
-        <img class="gallery6" src="images/gallery-6.jpg">
-        <i class="fa fa-picture-o"></i>
+        <div class="gallery"><strong class="heading">OUR GALLERY</strong>
+            <i class="fa fa-tint"></i><br><br>
+            <p class="para" style="margin-left: 0; margin-top: 2rem;">Charixy is the charity,Non-profit government
+                organizatio,
+                fundraising.
+                Our <br>activities help entrepreneurs get the target.</p>
+        </div>
+        <div class="flexgallery">
+            <img class="gallery1" src="images/gallery-1.jpg">
+            <div class="study"><img class="gallery2" src="images/gallery-2.jpg">
+            <img class="gallery3" src="images/gallery-3.jpg"></div>
+            <img class="gallery4" src="images/gallery-4.jpg">
+            <i class="fa fa-picture-o"></i>
+            <div class="group"><img class="gallery5" src="images/gallery-5.jpg">
+            <img class="gallery6" src="images/gallery-6.jpg"></div>
+        </div>
     </section>
 
     <section class="volunteer">
-        <h2 style="font-size: 25px;">O<strong class="heading">UR VOLUNTE</strong>ER</h2>
+        <div class="voln">
+        <h2 style="font-size: 25px; font-weight: 500;">O<strong class="heading">UR VOLUNTE</strong>ER</h2>
         <i class="fa fa-tint"></i>
         <p class="para" style="margin-left: 0;">Charixy is the charity,Non-profit government
             organizatio,fundraising.Our
             <br> activities help
             entrepreneurs get
             the target
-        </p>
-        <article class="cards">
+        </p></div>
+        <div class="vcard1">
             <span class="cardimage">
-                <img src="images/volunteer-1.jpg" class="profileimage">
+                <img src="images/volunteer-1.jpg" class="profileimage"><br><br>
                 <h1>Sara Lian</h1>
-                <p>Volunteer</p>
+                <p class="para" style="margin-left: 0;">Volunteer</p>
                 <span class="social-media">
                     <a href="#"><i class="fa fa-facebook" style="color:grey;"></i></a>
                     <a href="#"><i class="fa fa-twitter" style="color:grey;"></i></a>
                     <a href="#"><i class="fa fa-google-plus" style="color:grey;"></i></a>
                     <a href="#"><i class="fa fa-linkedin" style="color:grey;"></i></a>
                 </span>
-            </span>
+            </span></div>
 
-            <span class="cardimage">
-                <img src="images/volunteer-2.jpg" class="profileimage">
+            <div class="vcard2"><span class="cardimage">
+                <img src="images/volunteer-2.jpg" class="profileimage"><br><br>
                 <h1>Sara Lian</h1>
-                <p>Volunteer</p>
+                <p class="para" style="margin-left: 0;">Volunteer</p>
                 <span class="social-media">
                     <a href="#"><i class="fa fa-facebook" style="color:grey;"></i></a>
                     <a href="#"><i class="fa fa-twitter" style="color:grey;"></i></a>
                     <a href="#"><i class="fa fa-google-plus" style="color:grey;"></i></a>
                     <a href="#"><i class="fa fa-linkedin" style="color:grey;"></i></a>
                 </span>
-            </span>
+            </span></div>
 
-            <span class="cardimage1">
-                <img src="images/volunteer-3.jpg" class="profileimage">
+            <div class="vcard3"><span class="cardimage1">
+                <img src="images/volunteer-3.jpg" class="profileimage"><br><br>
                 <h1>Sara Lian</h1>
-                <p>Volunteer</p>
+                <p class="para" style="margin-left: 0;">Volunteer</p>
                 <span class="social-media">
                     <a href="#"><i class="fa fa-facebook" style="color:grey;"></i></a>
                     <a href="#"><i class="fa fa-twitter" style="color:grey;"></i></a>
                     <a href="#"><i class="fa fa-google-plus" style="color:grey;"></i></a>
                     <a href="#"><i class="fa fa-linkedin" style="color:grey;"></i></a>
                 </span>
-            </span>
+            </span></div>
 
-            <span class="cardimage">
-                <img src="images/volunteer-4.jpg" class="profileimage">
+            <div class="vcard4"><span class="cardimage">
+                <img src="images/volunteer-4.jpg" class="profileimage"><br><br>
                 <h1>Sara Lian</h1>
-                <p>Volunteer</p>
+                <p class="para" style="margin-left: 0;">Volunteer</p>
                 <span class="social-media">
                     <a href="#"><i class="fa fa-facebook" style="color:grey;"></i></a>
                     <a href="#"><i class="fa fa-twitter" style="color:grey;"></i></a>
                     <a href="#"><i class="fa fa-google-plus" style="color:grey;"></i></a>
                     <a href="#"><i class="fa fa-linkedin" style="color:grey;"></i></a>
                 </span>
-            </span>
+            </span></div>
+
+            <div class="dots"><span class="dot1"></span>
+        <span class="dot2"></span></div>
         </article>
-        <span class="dot1"></span>
-        <span class="dot2"></span>
+        
     </section>
     <section class="bottomlink">
         <i class="fa fa-chevron-circle-up"></i>
