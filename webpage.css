@@ -183,6 +183,7 @@ label {
     width: 75rem;
     font-size: 2rem;
     top: 16rem;
+    height: 20rem;
 }
 
 .sixcards{
@@ -191,7 +192,7 @@ label {
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    padding-bottom: 5rem;
+    padding-bottom: 10rem;
 }
 
 .ftb{
@@ -210,7 +211,6 @@ label {
     border: 0.2rem solid #f4f4f4;
     width: 3rem;
     height: 3rem;
-    padding: 0.5rem;
     text-align: center;
     color: #f44121;
     position: relative;
@@ -281,7 +281,7 @@ label {
 
 .aboutus .fa.fa-tint {
     background-color: #f4f4f4;
-    right: 8rem;
+    right: 8.5rem;
 }
 
 .donation {
@@ -713,7 +713,7 @@ hr {
     padding: 1.5rem 0 1.5rem 0;
 }
 
-@media only screen and (max-width: 391px) {
+@media only screen and (max-width: 390px) {
     .topnav{
         flex-flow: column nowrap;
         height: 9.2rem;
