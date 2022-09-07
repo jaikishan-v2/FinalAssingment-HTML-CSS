@@ -7,7 +7,6 @@ html {
     box-sizing: border-box;
 }
 
-
 body {
     margin: 0;
 }
@@ -29,6 +28,12 @@ body {
     word-spacing: 0.7rem;
 }
 
+.box .fa.fa-phone {
+    color: white;
+    background-color: #f44121;
+    padding: 1.5rem 1.9rem 1.5rem 1.9rem;
+}
+
 .box,
 .boxright {
     font-size: 1.6rem;
@@ -36,6 +41,12 @@ body {
     padding: 0 1.2rem 0 0.6rem;
     border-bottom: 0.2rem solid #f44121;
     margin-top: -0.2rem;
+
+}
+
+.boxright .fa.fa-google-plus {
+    background-color: #f44121;
+    padding: 1.5rem 1.9rem 1.5rem 1.9rem;
 }
 
 a {
@@ -53,9 +64,12 @@ a {
     align-items: center;
 }
 
+.fa.fa-bars {
+    display: none;
+}
+
 .company {
     color: #f44121;
-    padding-left: 4rem;
     font-weight: bold;
     font-size: 2rem;
     margin: 0;
@@ -63,8 +77,7 @@ a {
 
 .nav1 {
     display: flex;
-    padding-left: 9rem;
-    width: 65rem;
+    width: 60rem;
     column-gap: 4rem;
     flex-flow: wrap row;
     justify-content: space-around;
@@ -186,7 +199,7 @@ label {
     height: 20rem;
 }
 
-.sixcards{
+.sixcards {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -195,22 +208,28 @@ label {
     padding-bottom: 10rem;
 }
 
-.ftb{
+.ftb {
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
 }
 
-.ntb{
+.ntb {
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
+}
+
+.fa.fa-user-plus{
+    color: white; 
+    background-color: #f44121;
 }
 
 .iconborder {
     border: 0.2rem solid #f4f4f4;
-    width: 3rem;
-    height: 3rem;
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
     text-align: center;
     color: #f44121;
     position: relative;
@@ -225,18 +244,22 @@ label {
     padding-bottom: 0 0.5rem 0.3rem 0;
     position: relative;
     left: 9.5rem;
-    bottom: 1.5rem;
+    bottom: 2.5rem;
+}
+
+.card .para, .card5 .para{
+    margin-top: -1.5rem;
 }
 
 .para {
     margin-top: 0;
-    margin-left: 9rem;
+    margin-left: 8rem;
     line-height: 2.8rem;
     color: grey;
     font-size: 1.6rem;
 }
 
-.card{
+.card {
     border: 0.2rem solid #f4f4f4;
     width: 35rem;
     height: 15.5rem;
@@ -279,9 +302,26 @@ label {
     padding: 0 0 2.5rem 0.5rem;
 }
 
+.aboutus .para, .voln .para, .gallery .para, .ourcause .para{
+    width: 57rem;
+    margin: 1.7rem 63rem;
+}
+
 .aboutus .fa.fa-tint {
     background-color: #f4f4f4;
     right: 8.5rem;
+}
+
+.doanteimg{
+    order: 2;
+}
+
+.donatefund{
+    order: 1;
+}
+
+.scholarvoln{
+    order: 3;
 }
 
 .donation {
@@ -400,8 +440,7 @@ label {
 }
 
 .insideheart {
-    width: 110rem;
-    height: 40rem;
+    order: 2;
 }
 
 .heart {
@@ -414,14 +453,18 @@ label {
     gap: 3rem;
 }
 
-.video {
+.baby{
+    order: 1;
     filter: brightness(0.5);
+    background-image: url(images/video-img.jpg);
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: 42rem;
 }
 
 .play {
-    position: absolute;
     margin-top: 10rem;
-    left: 62rem;
+    margin-left: 23rem;
 }
 
 .heartheading {
@@ -440,26 +483,27 @@ label {
     display: flex;
     flex-flow: row wrap;
     font-size: 2.5rem;
-    padding-top:8rem;
+    padding-top: 8rem;
 }
 
-.gallery{
+.gallery {
     flex-basis: 185rem;
     text-align: center;
     padding-bottom: 2rem;
 }
-
-.flexgallery{
+.flexgallery {
     display: flex;
     flex-flow: row wrap;
 }
 
-.study{
+
+.study {
+    width: auto;
     display: flex;
     flex-direction: column;
 }
 
-.group{
+.group {
     display: flex;
     flex-direction: column;
 }
@@ -495,7 +539,7 @@ label {
     height: 25rem;
 }
 
-.fa.fa-tint{
+.fa.fa-tint {
     padding: 0.9rem 1.5rem 0.9rem 1.5rem;
     border-top: 0.21rem solid #f44121;
     border-bottom: 0.21rem solid #f44121;
@@ -529,11 +573,11 @@ label {
     margin-bottom: -1rem;
 }
 
-.dots{
+.dots {
     flex-basis: 180rem;
 }
 
-.voln{
+.voln {
     flex-basis: 185rem;
     text-align: center;
     padding-bottom: 10rem;
@@ -561,7 +605,7 @@ label {
     align-content: center;
 }
 
-.cardimage1 { 
+.cardimage1 {
     width: 27rem;
     height: 33rem;
     background-color: white;
@@ -629,7 +673,7 @@ label {
     color: orangered;
     font-size: 5rem;
     position: absolute;
-    margin-left: 148rem;
+    margin-left: 72rem;
     margin-top: -3.2rem;
 }
 
@@ -654,7 +698,7 @@ ul {
     font-size: 1.6rem;
 }
 
-.bottomelement article{
+.bottomelement article {
     width: 25rem;
 }
 
@@ -713,11 +757,146 @@ hr {
     padding: 1.5rem 0 1.5rem 0;
 }
 
-@media only screen and (max-width: 390px) {
-    .topnav{
+@media only screen and (max-width: 897px) {
+    .topnav {
         flex-flow: column nowrap;
         height: 9.2rem;
+        padding: 1rem 0 2rem 0;
+        gap: 2rem;
+    }
+
+    .box,
+    .boxright {
+        border: none;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .boxright {
+        gap: 5rem;
+    }
+
+    .box .fa.fa-phone {
+        color: white;
+        background-color: #333333;
         padding: 0;
     }
-    
-}
+
+    .boxright .fa.fa-google-plus {
+        background-color: #333333;
+        padding: 0;
+    }
+
+    .nav1,
+    .right {
+        display: none;
+    }
+
+    .company {
+        float: left;
+    }
+
+    .navigation {
+        background-color: #f4f4f4;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .fa.fa-bars {
+        display: inline;
+        font-size: 2.5rem;
+        color: grey;
+        background-color: white;
+        border: 1.5rem solid white;
+    }
+
+    .readmore {
+        display: none;
+    }
+
+    .textcenter p {
+        display: none;
+    }
+
+    .textcenter {
+        border: none;
+    }
+
+    .save {
+        padding: 0 0 1rem 0;
+        font-size: 4rem;
+    }
+
+    .formnmessage {
+        margin-top: 4rem;
+        position: inherit;
+    }
+
+    .message {
+        margin-left: 2rem;
+        position: inherit;
+    }
+
+    .sixcards{
+        margin: 5rem 0rem 0 2rem;
+    }
+
+    .card, .card5{
+        border: 0.2rem solid #f4f4f4;
+        width: 38rem;
+        height: 18rem;
+    }
+
+    .card .para, .card5 .para{
+        width: 22rem;
+        margin-left: 12rem;
+        margin-top: -1rem;
+    }
+
+    .underlinecard{
+        margin-left: 2rem;
+    }
+
+    .card5 .iconborder{
+        background-color: white;
+    }
+
+    .fa.fa-user-plus{
+        color: #f44121;
+        background-color: white ;
+    }
+
+    .about{
+        padding: 5rem 0 5rem 0;
+    }
+
+    .aboutus .para, .voln .para, .ourcause .para{
+        width: 40rem;
+        margin: 1.7rem 65rem;
+    }
+
+    .gallery .para{
+        margin-top: 1.7rem;
+        width: 40rem;
+    }
+
+    .doanteimg{
+        order: 1;
+    }
+
+    .heart .para1{
+        width: 42rem;
+        font-size: 1.85rem;
+    }
+
+    .gallery1, .gallery2, .gallery3, .gallery4, .gallery5, .gallery6{
+        width: 100%;
+    }
+
+    .study{
+        width: 50rem;
+    }
+}   
