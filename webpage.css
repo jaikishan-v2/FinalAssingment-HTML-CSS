@@ -58,7 +58,7 @@ a {
     display: flex;
     flex-flow: wrap row;
     justify-content: center;
-    gap: 8rem;
+    gap: 9rem;
     height: 8rem;
     background-color: white;
     align-items: center;
@@ -220,8 +220,8 @@ label {
     gap: 3rem;
 }
 
-.fa.fa-user-plus{
-    color: white; 
+.fa.fa-user-plus {
+    color: white;
     background-color: #f44121;
 }
 
@@ -247,7 +247,8 @@ label {
     bottom: 2.5rem;
 }
 
-.card .para, .card5 .para{
+.card .para,
+.card5 .para {
     margin-top: -1.5rem;
 }
 
@@ -302,7 +303,10 @@ label {
     padding: 0 0 2.5rem 0.5rem;
 }
 
-.aboutus .para, .voln .para, .gallery .para, .ourcause .para{
+.aboutus .para,
+.voln .para,
+.gallery .para,
+.ourcause .para {
     width: 57rem;
     margin: 1.7rem 63rem;
 }
@@ -312,15 +316,15 @@ label {
     right: 8.5rem;
 }
 
-.doanteimg{
+.doanteimg {
     order: 2;
 }
 
-.donatefund{
+.donatefund {
     order: 1;
 }
 
-.scholarvoln{
+.scholarvoln {
     order: 3;
 }
 
@@ -453,7 +457,7 @@ label {
     gap: 3rem;
 }
 
-.baby{
+.baby {
     order: 1;
     filter: brightness(0.5);
     background-image: url(images/video-img.jpg);
@@ -491,6 +495,7 @@ label {
     text-align: center;
     padding-bottom: 2rem;
 }
+
 .flexgallery {
     display: flex;
     flex-flow: row wrap;
@@ -570,11 +575,22 @@ label {
     background-color: #f4f4f4;
     justify-content: center;
     gap: 3rem;
-    margin-bottom: -1rem;
 }
 
-.dots {
-    flex-basis: 180rem;
+.dots{
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0 5rem 0;
+    color: #f44121;
+    margin-bottom: -1rem;
+    gap: 1rem;
+    word-spacing: 1rem;
+}
+
+.dots2{
+    display: none;
 }
 
 .voln {
@@ -645,35 +661,11 @@ label {
     word-spacing: 3rem;
 }
 
-.dot1 {
-    position: relative;
-    left: -2rem;
-    bottom: 8rem;
-    height: 0.8rem;
-    width: 0.8rem;
-    border-radius: 85%;
-    display: inline-block;
-    border: 0.1rem solid #f44121;
-    background-color: #f44121;
-    margin-top: 10rem;
-}
-
-.dot2 {
-    position: relative;
-    left: 0rem;
-    bottom: 8rem;
-    height: 0.8rem;
-    width: 0.8rem;
-    border-radius: 85%;
-    display: inline-block;
-    border: 0.1rem solid red;
-}
-
 .fa.fa-chevron-circle-up {
     color: orangered;
     font-size: 5rem;
     position: absolute;
-    margin-left: 72rem;
+    margin-left: 88%;
     margin-top: -3.2rem;
 }
 
@@ -704,6 +696,18 @@ ul {
 
 hr {
     opacity: 0.2;
+}
+
+.tagslist{
+    display: flex;
+    flex-flow: row wrap;
+    width: 25rem;
+    gap: 2rem;
+}
+
+.animals{
+    background-color: #f44121; 
+    border-color: #f44121;
 }
 
 .tags li {
@@ -823,6 +827,7 @@ hr {
 
     .textcenter {
         border: none;
+        width: auto;
     }
 
     .save {
@@ -836,67 +841,161 @@ hr {
     }
 
     .message {
-        margin-left: 2rem;
+        margin-left: 4rem;
+        width: 38rem;
         position: inherit;
     }
 
-    .sixcards{
-        margin: 5rem 0rem 0 2rem;
+    .sixcards {
+        margin: 8rem 0rem 0rem 7rem;
     }
 
-    .card, .card5{
+    .card,
+    .card5 {
         border: 0.2rem solid #f4f4f4;
         width: 38rem;
         height: 18rem;
     }
 
-    .card .para, .card5 .para{
+    .card .para,
+    .card5 .para {
         width: 22rem;
         margin-left: 12rem;
         margin-top: -1rem;
     }
 
-    .underlinecard{
+    .underlinecard {
         margin-left: 2rem;
     }
 
-    .card5 .iconborder{
+    .card5 .iconborder {
         background-color: white;
     }
 
-    .fa.fa-user-plus{
+    .fa.fa-user-plus {
         color: #f44121;
-        background-color: white ;
+        background-color: white;
     }
 
-    .about{
+    .about {
         padding: 5rem 0 5rem 0;
     }
 
-    .aboutus .para, .voln .para, .ourcause .para{
+    .aboutus .para {
         width: 40rem;
-        margin: 1.7rem 65rem;
+        margin: 1.7rem 4rem;
     }
 
-    .gallery .para{
-        margin-top: 1.7rem;
+    .voln .para {
+        width: 40rem;
+        margin: 1.7rem 4rem;
+    }
+
+    .ourcause .para {
+        width: 40rem;
+        margin: 1.7rem 4rem;
+    }
+
+    .gallery .para {
+        margin: 2.7rem 0 0 2.7rem;
         width: 40rem;
     }
 
-    .doanteimg{
+    .gallery4 {
+        filter: brightness(1);
+    }
+
+    .doanteimg {
         order: 1;
     }
 
-    .heart .para1{
+    .heart .para1 {
         width: 42rem;
         font-size: 1.85rem;
     }
 
-    .gallery1, .gallery2, .gallery3, .gallery4, .gallery5, .gallery6{
+    .gallery1 {
+        height: 22%;
+    }
+
+    .gallery2,
+    .gallery3 {
+        height: 41%;
+    }
+
+    .gallery1,
+    .gallery2,
+    .gallery3,
+    .gallery4,
+    .gallery5,
+    .gallery6 {
         width: 100%;
     }
 
-    .study{
+    .study {
         width: 50rem;
+        margin-bottom: -15rem;
+    }
+
+    .dots2{
+        display: contents;
+    }
+
+    .vcard2,
+    .vcard3,
+    .vcard4 {
+        display: none;
+    }
+
+    .fa.fa-chevron-circle-up {
+        color: orangered;
+        font-size: 5rem;
+        margin-left: 50%;
+        margin-top: -3.2rem;
+    }
+
+    .newsletter{
+        display: flex;
+        flex-flow: row wrap;
+        background-color: #f44121;
+        height: 16.5rem;
+        text-align: center;
+        padding-top: 1rem;
+        align-content: flex-start;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .subscribe{
+        position: relative;
+        left: -1rem;
+        top: 2rem;
+        background: transparent;
+        color: white;
+        border: 0.11rem solid white;
+        padding: 1rem 1.5rem 1rem 1.4rem;
+    }
+
+    .fornews input[type=text] {
+        width: 95%;
+        padding: 1rem 1rem 1rem 2rem;
+        border: none;
+    }
+
+    .signup {
+        margin: 0;
+        color: white;
+        font-size: 2.9rem;
+    }
+
+    .tagslist{
+        width: 30rem;
+    }
+
+    .animals{
+        border: 0.1rem solid white;
+        background-color: transparent;
+        display: inline;
+        padding: 0.8rem;
     }
 }   
