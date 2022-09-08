@@ -85,6 +85,10 @@ a {
     text-align: center;
 }
 
+.navele1 a{
+    color: #f44121;
+}
+
 .right {
     border: 0.1rem solid #f44121;
     color: #f44121;
@@ -463,7 +467,7 @@ label {
     background-image: url(images/video-img.jpg);
     background-repeat: no-repeat;
     height: 30rem;
-    width: 42rem;
+    width: 58rem;
 }
 
 .play {
@@ -474,6 +478,7 @@ label {
 .heartheading {
     color: white;
     font-size: 1.8rem;
+    font-weight: 400;
 }
 
 .heart .para1 {
@@ -817,6 +822,10 @@ hr {
         border: 1.5rem solid white;
     }
 
+    .navele1 a{
+        color: black;
+    }
+
     .readmore {
         display: none;
     }
@@ -914,6 +923,10 @@ hr {
         font-size: 1.85rem;
     }
 
+    .baby{
+        width: 42rem;
+    }
+
     .gallery1 {
         height: 22%;
     }
@@ -937,6 +950,10 @@ hr {
         margin-bottom: -15rem;
     }
 
+    .dots{
+        padding-bottom: 6rem;
+    }
+
     .dots2{
         display: contents;
     }
@@ -947,6 +964,35 @@ hr {
         display: none;
     }
 
+    .aboutus{
+        flex-basis: 48rem;
+        text-align: center;
+        line-height: 3.2rem;
+        font-size: 1.5rem;
+    }
+
+    .ourcause{
+        flex-basis: 48rem;
+        text-align: center;
+        line-height: 3.2rem;
+    }
+
+    .gallery{
+        flex-basis: 48rem;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .voln{
+        flex-basis: 48rem;
+        text-align: center;
+        padding-bottom: 10rem;
+    }
+
+    .fornews{
+        width: 48rem;
+    }
+
     .fa.fa-chevron-circle-up {
         color: orangered;
         font-size: 5rem;
@@ -954,16 +1000,17 @@ hr {
         margin-top: -3.2rem;
     }
 
+    .bottomelement {
+        padding: 5rem 0 5rem 0rem;
+    }
+
+    .volunteer {
+        padding-top: 7rem;
+    }
+
     .newsletter{
-        display: flex;
-        flex-flow: row wrap;
-        background-color: #f44121;
         height: 16.5rem;
-        text-align: center;
-        padding-top: 1rem;
         align-content: flex-start;
-        gap: 1rem;
-        justify-content: center;
     }
 
     .subscribe{
