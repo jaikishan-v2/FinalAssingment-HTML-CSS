@@ -189,12 +189,6 @@ label {
     font-size: 1.4rem;
 }
 
-.underline {
-    border-bottom: 0.1rem solid #f44121;
-    padding-bottom: 0.2rem;
-    font-weight: 400;
-}
-
 .message {
     position: relative;
     width: 75rem;
@@ -241,10 +235,33 @@ label {
     top: 2rem;
 }
 
+.underline {
+    font-weight: 500;
+    display: inline;
+    padding-bottom: 0 0.5rem 0.3rem 0;
+}
+
+.underline::after {
+    content: '';
+    margin-top: 0.3rem;
+    width: 5.5rem;
+    height: 0.2rem;
+    display: block;
+    background-color: #f44121;
+}
+
+.underlinecard::after {
+    content: '';
+    margin-top: 0.3rem;
+    width: 7rem;
+    height: 0.2rem;
+    display: block;
+    background-color: #f44121;
+}
+
 .underlinecard {
     font-weight: 500;
     display: inline;
-    border-bottom: 0.1rem solid #f44121;
     padding-bottom: 0 0.5rem 0.3rem 0;
     position: relative;
     left: 9.5rem;
@@ -254,6 +271,7 @@ label {
 .card .para,
 .card5 .para {
     margin-top: -1.5rem;
+    margin-left: 9rem;
 }
 
 .para {
@@ -301,14 +319,26 @@ label {
 }
 
 .heading {
-    border-bottom: 0.2rem solid #f44121;
+    position: relative;
     font-size: 2.5rem;
     font-weight: 500;
     padding: 0 0 2.5rem 0.5rem;
 }
 
+.heading::before{
+    content: '';
+    margin-top: 5.8rem;
+    height: 0.2rem;
+    position: absolute;
+    background-color: #f44121;
+}
+
+.aboutus .heading::before {
+    margin-left: -7%;
+    width: 14rem;
+}
+
 .aboutus .para,
-.voln .para,
 .gallery .para,
 .ourcause .para {
     width: 57rem;
@@ -346,13 +376,17 @@ label {
     gap: 3rem;
     background-color: white;
     padding: 5rem 0 5rem 0;
-
 }
 
 .ourcause {
     flex-basis: 155rem;
     text-align: center;
     line-height: 3.2rem;
+}
+
+.ourcause .heading::before {
+    margin-left: 1%;
+    width: 15rem;
 }
 
 .ourcause .fa.fa-tint {
@@ -476,9 +510,19 @@ label {
 }
 
 .heartheading {
+    position: relative;
     color: white;
     font-size: 1.8rem;
     font-weight: 400;
+}
+
+.heartheading::before{
+    content: '';
+    width: 4.5rem;
+    margin-top: 2.5rem;
+    height: 0.2rem;
+    position: absolute;
+    background-color: #f44121;
 }
 
 .heart .para1 {
@@ -495,6 +539,11 @@ label {
     padding-top: 8rem;
 }
 
+.gallery .heading::before {
+    margin-left: 5%;
+    width: 15rem;
+}
+
 .gallery {
     flex-basis: 185rem;
     text-align: center;
@@ -505,7 +554,6 @@ label {
     display: flex;
     flex-flow: row wrap;
 }
-
 
 .study {
     width: auto;
@@ -604,9 +652,19 @@ label {
     padding-bottom: 10rem;
 }
 
+.voln .heading::before {
+    margin-left: 14%;
+    width: 15rem;
+}
+
+.voln .para{
+    width: 57rem;
+    margin: 6.3rem 0rem 0 63rem;
+}
+
 .volunteer .fa.fa-tint {
     background-color: #f4f4f4;
-    top: -1.3rem;
+    right: 12rem;
 }
 
 .cards {
@@ -859,10 +917,19 @@ hr {
         margin: 8rem 0rem 0rem 7rem;
     }
 
+    .underlinecard{
+        padding-left: 2rem;
+    }
+
+    .underlinecard::after{
+        margin-left: 2rem;
+
+    }
+
     .card,
     .card5 {
         border: 0.2rem solid #f4f4f4;
-        width: 38rem;
+        width: 40rem;
         height: 18rem;
     }
 
@@ -871,10 +938,6 @@ hr {
         width: 22rem;
         margin-left: 12rem;
         margin-top: -1rem;
-    }
-
-    .underlinecard {
-        margin-left: 2rem;
     }
 
     .card5 .iconborder {
@@ -897,7 +960,7 @@ hr {
 
     .voln .para {
         width: 40rem;
-        margin: 1.7rem 4rem;
+        margin: 5.5rem 0 0 4rem;
     }
 
     .ourcause .para {
@@ -931,6 +994,22 @@ hr {
         height: 22%;
     }
 
+    .fa.fa.fa-picture-o{
+        display: none;
+    }
+
+    .ourgallery {
+        display: flex;
+        flex-flow: row wrap;
+        width: 48.5rem;
+        font-size: 2.5rem;
+        padding-top: 8rem;
+    }
+
+    .flexgallery{
+        width: 48.5rem;
+    }
+
     .gallery2,
     .gallery3 {
         height: 41%;
@@ -942,7 +1021,7 @@ hr {
     .gallery4,
     .gallery5,
     .gallery6 {
-        width: 100%;
+        width: 48.5rem;
     }
 
     .study {
@@ -1001,7 +1080,12 @@ hr {
     }
 
     .bottomelement {
-        padding: 5rem 0 5rem 0rem;
+        justify-content: flex-start;
+        padding: 5rem 0rem 5rem 3rem;
+    }
+
+    .bottomelement article{
+        width: 43rem;
     }
 
     .volunteer {
@@ -1037,6 +1121,10 @@ hr {
 
     .tagslist{
         width: 30rem;
+    }
+
+    .history{
+        color: white;
     }
 
     .animals{
