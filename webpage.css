@@ -1,0 +1,1136 @@
+html {
+    font-size: 10px;
+    font-family: "lato";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.topnav {
+    padding: 0 4rem 0 10rem;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    height: 4.6rem;
+    background-color: #333333;
+}
+
+.topnav a {
+    color: white;
+}
+
+.lessspace {
+    word-spacing: 0.7rem;
+}
+
+.box .fa.fa-phone {
+    color: white;
+    background-color: #f44121;
+    padding: 1.5rem 1.9rem 1.5rem 1.9rem;
+}
+
+.box,
+.boxright {
+    font-size: 1.6rem;
+    word-spacing: 2rem;
+    padding: 0 1.2rem 0 0.6rem;
+    border-bottom: 0.2rem solid #f44121;
+    margin-top: -0.2rem;
+
+}
+
+.boxright .fa.fa-google-plus {
+    background-color: #f44121;
+    padding: 1.5rem 1.9rem 1.5rem 1.9rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    gap: 9rem;
+    height: 8rem;
+    background-color: white;
+    align-items: center;
+}
+
+.fa.fa-bars {
+    display: none;
+}
+
+.company {
+    color: #f44121;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.nav1 {
+    display: flex;
+    width: 60rem;
+    column-gap: 4rem;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.navele1 a{
+    color: #f44121;
+}
+
+.right {
+    border: 0.1rem solid #f44121;
+    color: #f44121;
+    font-size: 1.5rem;
+    padding: 1.4rem;
+    margin: 0;
+}
+
+.slider {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.textcenter {
+    position: absolute;
+    align-items: center;
+    width: 70rem;
+    font-size: 2rem;
+    text-align: center;
+    border: 0.1rem white solid;
+    border-bottom: none;
+}
+
+.readmore {
+    margin-top: 22rem;
+    position: absolute;
+    width: 70rem;
+    font-size: 2rem;
+    text-align: center;
+    border: none;
+    border-top: 0.1rem white solid;
+}
+
+.save {
+    padding: 0rem 3rem 0.5rem 3rem;
+    font-size: 5rem;
+    border-bottom: 0.4rem solid #f44121;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.outer {
+    border: 2.1rem solid transparent;
+    background-color: transparent;
+}
+
+.read {
+    border: 0.15rem white solid;
+    color: white;
+    font-size: 1.5rem;
+    background-color: transparent;
+    padding: 1.5rem 2rem 1.2rem 2rem;
+}
+
+.infoform {
+    width: 35rem;
+    padding: 4rem;
+    background-color: white;
+    box-shadow: 0.1rem 1rem 1.9rem -0.2rem #282828;
+}
+
+.formnmessage {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+    justify-content: center;
+    bottom: 15rem;
+}
+
+.infoform input[type=text] {
+    width: 23rem;
+    padding: 1.5rem;
+    margin: 0.5rem 0 2.2rem 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.infoform input[type=submit] {
+    color: white;
+    font-weight: bold;
+    width: 26rem;
+    padding: 1.5rem;
+    margin: 0.5rem 0 2.2rem 0;
+    border: none;
+    background: #f44121;
+}
+
+label {
+    width: 100%;
+    margin: 0.5rem 0 2.2rem 0;
+    border: none;
+    background: #fff;
+    font-size: 1.4rem;
+}
+
+.message {
+    position: relative;
+    width: 75rem;
+    font-size: 2rem;
+    top: 16rem;
+    height: 20rem;
+}
+
+.sixcards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-bottom: 10rem;
+}
+
+.ftb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.ntb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.fa.fa-user-plus {
+    color: white;
+    background-color: #f44121;
+}
+
+.iconborder {
+    border: 0.2rem solid #f4f4f4;
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    text-align: center;
+    color: #f44121;
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+}
+
+.underline {
+    font-weight: 500;
+    display: inline;
+    padding-bottom: 0 0.5rem 0.3rem 0;
+}
+
+.underline::after {
+    content: '';
+    margin-top: 0.3rem;
+    width: 5.5rem;
+    height: 0.2rem;
+    display: block;
+    background-color: #f44121;
+}
+
+.underlinecard::after {
+    content: '';
+    margin-top: 0.3rem;
+    width: 7rem;
+    height: 0.2rem;
+    display: block;
+    background-color: #f44121;
+}
+
+.underlinecard {
+    font-weight: 500;
+    display: inline;
+    padding-bottom: 0 0.5rem 0.3rem 0;
+    position: relative;
+    left: 9.5rem;
+    bottom: 2.5rem;
+}
+
+.card .para,
+.card5 .para {
+    margin-top: -1.5rem;
+    margin-left: 9rem;
+}
+
+.para {
+    margin-top: 0;
+    margin-left: 8rem;
+    line-height: 2.8rem;
+    color: grey;
+    font-size: 1.6rem;
+}
+
+.card {
+    border: 0.2rem solid #f4f4f4;
+    width: 35rem;
+    height: 15.5rem;
+    font-size: 2rem;
+}
+
+.card5 {
+    border: 0.1rem solid #f44121;
+    width: 35rem;
+    height: 15.5rem;
+    font-size: 2rem;
+}
+
+.card5 .iconborder {
+    background-color: #f44121;
+}
+
+
+.about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    column-gap: 5rem;
+    padding: 10rem 0 10rem 0;
+}
+
+.aboutus {
+    flex-basis: 160rem;
+    text-align: center;
+    line-height: 3.2rem;
+    font-size: 1.5rem;
+}
+
+.heading {
+    position: relative;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 0 0 2.5rem 0.5rem;
+}
+
+.heading::before{
+    content: '';
+    margin-top: 5.8rem;
+    height: 0.2rem;
+    position: absolute;
+    background-color: #f44121;
+}
+
+.aboutus .heading::before {
+    margin-left: -7%;
+    width: 14rem;
+}
+
+.aboutus .para,
+.gallery .para,
+.ourcause .para {
+    width: 57rem;
+    margin: 1.7rem 63rem;
+}
+
+.aboutus .fa.fa-tint {
+    background-color: #f4f4f4;
+    right: 8.5rem;
+}
+
+.doanteimg {
+    order: 2;
+}
+
+.donatefund {
+    order: 1;
+}
+
+.scholarvoln {
+    order: 3;
+}
+
+.donation {
+    width: 33.5rem;
+    line-height: 3.1rem;
+    font-size: 1.5rem;
+}
+
+.ourcauses {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 3rem;
+    background-color: white;
+    padding: 5rem 0 5rem 0;
+}
+
+.ourcause {
+    flex-basis: 155rem;
+    text-align: center;
+    line-height: 3.2rem;
+}
+
+.ourcause .heading::before {
+    margin-left: 1%;
+    width: 15rem;
+}
+
+.ourcause .fa.fa-tint {
+    right: 10rem;
+    top: 3.75rem;
+}
+
+.causeimg {
+    width: 33.2rem;
+    margin-bottom: 1rem;
+}
+
+.donated {
+    word-spacing: 18rem;
+    position: relative;
+    top: 9rem;
+    left: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.amount {
+    word-spacing: 18rem;
+    position: relative;
+    top: 8rem;
+    left: 2.5rem;
+    font-size: 1.3rem;
+    color: #fe1800;
+}
+
+.feed1 {
+    border: 0.2rem solid #f4f4f4;
+    width: 33.2rem;
+    height: 60rem;
+}
+
+.progressbar {
+    accent-color: #f44121;
+    position: relative;
+    top: 5.4rem;
+    left: 2.3rem;
+    width: 27.5rem;
+    height: 1.2rem;
+}
+
+.triangle1,
+.triangle2,
+.triangle3 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 0.8rem solid transparent;
+    margin-left: 12.5rem;
+    margin-top: 3.2rem;
+    border-bottom: 2rem solid #f44121;
+    rotate: 180deg;
+}
+
+.prog1,
+.prog2,
+.prog3 {
+    color: white;
+    position: absolute;
+    border: 0rem solid;
+    background-color: #f44121;
+    width: 2.7rem;
+    height: 2.1rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    margin-left: 12rem;
+    margin-top: 1.6rem;
+}
+
+.triangle2 {
+    margin-left: 17.9rem;
+    margin-top: 3.2rem;
+}
+
+.prog2 {
+    margin-left: 17.4rem;
+    margin-top: 1.6rem;
+}
+
+.triangle3 {
+    margin-left: 23.4rem;
+    margin-top: 3.2rem;
+}
+
+.prog3 {
+    margin-left: 22.9rem;
+    margin-top: 1.8rem;
+}
+
+.insideheart {
+    order: 2;
+}
+
+.heart {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    padding: 10rem 0 10rem 0;
+    gap: 3rem;
+}
+
+.baby {
+    order: 1;
+    filter: brightness(0.5);
+    background-image: url(images/video-img.jpg);
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: 58rem;
+}
+
+.play {
+    margin-top: 10rem;
+    margin-left: 23rem;
+}
+
+.heartheading {
+    position: relative;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.heartheading::before{
+    content: '';
+    width: 4.5rem;
+    margin-top: 2.5rem;
+    height: 0.2rem;
+    position: absolute;
+    background-color: #f44121;
+}
+
+.heart .para1 {
+    color: white;
+    width: 48rem;
+    line-height: 3rem;
+    font-size: 1.4rem;
+}
+
+.ourgallery {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 2.5rem;
+    padding-top: 8rem;
+}
+
+.gallery .heading::before {
+    margin-left: 5%;
+    width: 15rem;
+}
+
+.gallery {
+    flex-basis: 185rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.flexgallery {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.study {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery1 {
+    width: 58rem;
+    height: 50rem;
+}
+
+.gallery2 {
+    width: 34rem;
+    height: 25rem;
+}
+
+.gallery3 {
+    width: 34rem;
+    height: 25rem;
+}
+
+.gallery4 {
+    width: 32rem;
+    height: 50rem;
+    filter: brightness(0.5);
+}
+
+.gallery5 {
+    width: 60rem;
+    height: 25rem;
+}
+
+.gallery6 {
+    width: 60rem;
+    height: 25rem;
+}
+
+.fa.fa-tint {
+    padding: 0.9rem 1.5rem 0.9rem 1.5rem;
+    border-top: 0.21rem solid #f44121;
+    border-bottom: 0.21rem solid #f44121;
+    color: #f44121;
+    background-color: white;
+    font-size: 1.7rem;
+    position: relative;
+    top: 4.2rem;
+}
+
+.ourgallery .fa.fa-tint {
+    right: 11rem;
+}
+
+.flexgallery .fa.fa-picture-o {
+    position: absolute;
+    color: white;
+    margin-left: 105rem;
+    margin-top: 23rem;
+    font-size: 3rem;
+}
+
+.volunteer {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 4rem;
+    text-align: center;
+    background-color: #f4f4f4;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.dots{
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0 5rem 0;
+    color: #f44121;
+    margin-bottom: -1rem;
+    gap: 1rem;
+    word-spacing: 1rem;
+}
+
+.dots2{
+    display: none;
+}
+
+.voln {
+    flex-basis: 185rem;
+    text-align: center;
+    padding-bottom: 10rem;
+}
+
+.voln .heading::before {
+    margin-left: 14%;
+    width: 15rem;
+}
+
+.voln .para{
+    width: 57rem;
+    margin: 6.3rem 0rem 0 63rem;
+}
+
+.volunteer .fa.fa-tint {
+    background-color: #f4f4f4;
+    right: 12rem;
+}
+
+.cards {
+    display: flex;
+    margin-top: 13rem;
+    margin-left: 37rem;
+    gap: 3.5rem;
+}
+
+.cardimage {
+    width: 27rem;
+    height: 33rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.cardimage1 {
+    width: 27rem;
+    height: 33rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0.01rem 0.01rem 0.5rem 0.05rem silver;
+}
+
+.profileimage {
+    width: 20rem;
+    height: 25rem;
+    margin-top: -8rem;
+}
+
+.cards h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 2.4rem;
+    margin-top: 4rem;
+    margin-bottom: 0.64rem;
+}
+
+.cards p {
+    margin-bottom: 3.2rem;
+    margin-top: 0.5rem;
+    color: grey;
+}
+
+.social-media {
+    width: 16.5rem;
+    font-size: 1.6rem;
+    border-top: 0.1rem solid #f1f1f1;
+    padding: 4.5rem 0.5rem 3rem 0rem;
+    text-align: center;
+    word-spacing: 3rem;
+}
+
+.fa.fa-chevron-circle-up {
+    color: orangered;
+    font-size: 5rem;
+    position: absolute;
+    margin-left: 88%;
+    margin-top: -3.2rem;
+}
+
+.bottomlink {
+    margin-bottom: -1rem;
+    width: 100%;
+    background-color: #333333;
+}
+
+ul {
+    list-style: none outside;
+    padding: 3rem 0 0 0;
+}
+
+.bottomelement {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 10rem 0 10rem 0rem;
+    color: white;
+    gap: 4rem;
+    font-size: 1.6rem;
+}
+
+.bottomelement article {
+    width: 25rem;
+}
+
+hr {
+    opacity: 0.2;
+}
+
+.tagslist{
+    display: flex;
+    flex-flow: row wrap;
+    width: 25rem;
+    gap: 2rem;
+}
+
+.animals{
+    background-color: #f44121; 
+    border-color: #f44121;
+}
+
+.tags li {
+    border: 0.1rem solid white;
+    display: inline;
+    padding: 0.8rem;
+}
+
+.newsletter {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #f44121;
+    height: 12.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    align-content: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.signup {
+    margin: 0;
+    color: white;
+    font-size: 3.4rem;
+}
+
+.subscribe {
+    position: relative;
+    left: 2rem;
+    background: transparent;
+    color: white;
+    border: 0.11rem solid white;
+    padding: 1rem 1.5rem 1rem 1.4rem;
+}
+
+.fornews {
+    width: 70rem;
+}
+
+.fornews input[type=text] {
+    width: 60%;
+    padding: 1rem 1rem 1rem 2rem;
+    border: none;
+}
+
+.copyright {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+@media only screen and (max-width: 897px) {
+    .topnav {
+        flex-flow: column nowrap;
+        height: 9.2rem;
+        padding: 1rem 0 2rem 0;
+        gap: 2rem;
+    }
+
+    .box,
+    .boxright {
+        border: none;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .boxright {
+        gap: 5rem;
+    }
+
+    .box .fa.fa-phone {
+        color: white;
+        background-color: #333333;
+        padding: 0;
+    }
+
+    .boxright .fa.fa-google-plus {
+        background-color: #333333;
+        padding: 0;
+    }
+
+    .nav1,
+    .right {
+        display: none;
+    }
+
+    .company {
+        float: left;
+    }
+
+    .navigation {
+        background-color: #f4f4f4;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .fa.fa-bars {
+        display: inline;
+        font-size: 2.5rem;
+        color: grey;
+        background-color: white;
+        border: 1.5rem solid white;
+    }
+
+    .navele1 a{
+        color: black;
+    }
+
+    .readmore {
+        display: none;
+    }
+
+    .textcenter p {
+        display: none;
+    }
+
+    .textcenter {
+        border: none;
+        width: auto;
+    }
+
+    .save {
+        padding: 0 0 1rem 0;
+        font-size: 4rem;
+    }
+
+    .formnmessage {
+        margin-top: 4rem;
+        position: inherit;
+    }
+
+    .message {
+        margin-left: 4rem;
+        width: 38rem;
+        position: inherit;
+    }
+
+    .sixcards {
+        margin: 8rem 0rem 0rem 7rem;
+    }
+
+    .underlinecard{
+        padding-left: 2rem;
+    }
+
+    .underlinecard::after{
+        margin-left: 2rem;
+
+    }
+
+    .card,
+    .card5 {
+        border: 0.2rem solid #f4f4f4;
+        width: 40rem;
+        height: 18rem;
+    }
+
+    .card .para,
+    .card5 .para {
+        width: 22rem;
+        margin-left: 12rem;
+        margin-top: -1rem;
+    }
+
+    .card5 .iconborder {
+        background-color: white;
+    }
+
+    .fa.fa-user-plus {
+        color: #f44121;
+        background-color: white;
+    }
+
+    .about {
+        padding: 5rem 0 5rem 0;
+    }
+
+    .aboutus .para {
+        width: 40rem;
+        margin: 1.7rem 4rem;
+    }
+
+    .voln .para {
+        width: 40rem;
+        margin: 5.5rem 0 0 4rem;
+    }
+
+    .ourcause .para {
+        width: 40rem;
+        margin: 1.7rem 4rem;
+    }
+
+    .gallery .para {
+        margin: 2.7rem 0 0 2.7rem;
+        width: 40rem;
+    }
+
+    .gallery4 {
+        filter: brightness(1);
+    }
+
+    .doanteimg {
+        order: 1;
+    }
+
+    .heart .para1 {
+        width: 42rem;
+        font-size: 1.85rem;
+    }
+
+    .baby{
+        width: 42rem;
+    }
+
+    .gallery1 {
+        height: 22%;
+    }
+
+    .fa.fa.fa-picture-o{
+        display: none;
+    }
+
+    .ourgallery {
+        display: flex;
+        flex-flow: row wrap;
+        width: 48.5rem;
+        font-size: 2.5rem;
+        padding-top: 8rem;
+    }
+
+    .flexgallery{
+        width: 48.5rem;
+    }
+
+    .gallery2,
+    .gallery3 {
+        height: 41%;
+    }
+
+    .gallery1,
+    .gallery2,
+    .gallery3,
+    .gallery4,
+    .gallery5,
+    .gallery6 {
+        width: 48.5rem;
+    }
+
+    .study {
+        width: 50rem;
+        margin-bottom: -15rem;
+    }
+
+    .dots{
+        padding-bottom: 6rem;
+    }
+
+    .dots2{
+        display: contents;
+    }
+
+    .vcard2,
+    .vcard3,
+    .vcard4 {
+        display: none;
+    }
+
+    .aboutus{
+        flex-basis: 48rem;
+        text-align: center;
+        line-height: 3.2rem;
+        font-size: 1.5rem;
+    }
+
+    .ourcause{
+        flex-basis: 48rem;
+        text-align: center;
+        line-height: 3.2rem;
+    }
+
+    .gallery{
+        flex-basis: 48rem;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .voln{
+        flex-basis: 48rem;
+        text-align: center;
+        padding-bottom: 10rem;
+    }
+
+    .fornews{
+        width: 48rem;
+    }
+
+    .fa.fa-chevron-circle-up {
+        color: orangered;
+        font-size: 5rem;
+        margin-left: 50%;
+        margin-top: -3.2rem;
+    }
+
+    .bottomelement {
+        justify-content: flex-start;
+        padding: 5rem 0rem 5rem 3rem;
+    }
+
+    .bottomelement article{
+        width: 43rem;
+    }
+
+    .volunteer {
+        padding-top: 7rem;
+    }
+
+    .newsletter{
+        height: 16.5rem;
+        align-content: flex-start;
+    }
+
+    .subscribe{
+        position: relative;
+        left: -1rem;
+        top: 2rem;
+        background: transparent;
+        color: white;
+        border: 0.11rem solid white;
+        padding: 1rem 1.5rem 1rem 1.4rem;
+    }
+
+    .fornews input[type=text] {
+        width: 95%;
+        padding: 1rem 1rem 1rem 2rem;
+        border: none;
+    }
+
+    .signup {
+        margin: 0;
+        color: white;
+        font-size: 2.9rem;
+    }
+
+    .tagslist{
+        width: 30rem;
+    }
+
+    .history{
+        color: white;
+    }
+
+    .animals{
+        border: 0.1rem solid white;
+        background-color: transparent;
+        display: inline;
+        padding: 0.8rem;
+    }
+}   
